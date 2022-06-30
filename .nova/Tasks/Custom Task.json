@@ -1,0 +1,12 @@
+{
+  "actions" : {
+    "run" : {
+      "enabled" : true,
+      "script" : "node \"$1\""
+    }
+  },
+  "arguments" : [
+    "${File}"
+  ],
+  "openLogOnRun" : "start"
+}
